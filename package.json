@@ -2,7 +2,9 @@
   "name": "",
   "jest": {
     "verbose": true,
-    "setupFilesAfterEnv": ["<rootDir>tests/sum.test.js"]
+    "setupFilesAfterEnv": [
+      "<rootDir>tests/sum.test.js"
+    ]
   },
   "version": "",
   "description": "",
@@ -14,8 +16,13 @@
   "scripts": {
     "test": "jest"
   },
-  "dependencies": {},
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
   "devDependencies": {
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.11.2",
     "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
     "jest": "^24.5.0"
   }
