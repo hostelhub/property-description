@@ -20,7 +20,7 @@ class App extends React.Component {
 
   componentDidMount = () => {
     const Id = window.location.pathname.split('/')[2];
-    axios.get(`/api/hostels/${Id}`)
+    axios.get(`/api/hostels/${Id}/photos`)
       .then(response => (
         this.setState({
           images: response.data[0].photos,

@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/hostels/:Id', express.static(`${__dirname}/../client/dist`));
 app.use(express.static(`${__dirname}/../client/dist`));
 
-app.get('/api/hostels/:id', (req, res) => {
+app.get('/api/hostels/:id/photos', (req, res) => {
   Hostel.find({ _id: req.params.id })
     .then((results) => {
       res.send(results);
