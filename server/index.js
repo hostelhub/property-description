@@ -9,6 +9,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use('/hostels/:Id', express.static(`${__dirname}/../client/dist`));
+app.use(express.static(`${__dirname}/../client/dist`));
 
 app.get('/api/hostels/:id', (req, res) => {
   Hostel.find({ _id: req.params.id })
@@ -17,6 +18,6 @@ app.get('/api/hostels/:id', (req, res) => {
     });
 });
 
-app.listen(3000, () => {
-  console.log('listening on port 3000');
+app.listen(3001, () => {
+  console.log('listening on port 3001');
 });
