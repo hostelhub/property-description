@@ -6,9 +6,10 @@ import Thumbnail from './Thumbnail.jsx';
 const ThumbnailGallery = props => (
     <div style={{
       height: '100px',
-      width: '1100px',
+      width: '1200px',
       margin: '0 auto',
       display: 'flex',
+      top: '350px',
     }}>
     {props.images.map((image, i) => <Thumbnail image={image} clickHandler={props.clickHandler} key={i} index={i} />)}
     </div>
