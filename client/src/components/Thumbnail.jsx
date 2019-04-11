@@ -9,7 +9,6 @@ const Thumbnail = props => (
       width: '100%',
       height: '100%',
       cursor: 'pointer',
-      margin: '10px 16px 0px 0px',
     }} onClick={props.clickHandler} index={props.index} />
   </div>
 );
