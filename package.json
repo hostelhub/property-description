@@ -15,7 +15,7 @@
   "scripts": {
     "test": "jest",
     "test:coverage": "jest --coverage --colors",
-    "react-dev": "webpack -d --watch",
+    "react-dev": "webpack -p --watch",
     "start": "node database/seed.js & node server/index.js",
     "db:setup": "node database/seed.js"
   },
