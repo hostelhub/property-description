@@ -10,14 +10,14 @@ const Modal = props => (
 
         <div className="mySlides">
           <div className="numbertext">{props.currentIndex + 1} / {props.images.length}</div>
-          <img className="carousel-image" src={props.images[props.currentIndex]}/>
+          <img className="carousel-image" src={props.images[props.currentIndex].full}/>
         </div>
 
         <a className="prev" onClick={props.goToPrevSlide} >&#10094;</a>
         <a className="next" onClick={props.goToNextSlide} >&#10095;</a>
 
         {props.images.map((image, i) => <div className="column" key={i}>
-          <img className="demo cursor" src={image} index={i} onClick={props.clickHandler}/>
+          <img className="demo cursor" src={image.small} index={i} onClick={props.clickHandler}/>
         </div>)}
 
       </div>
