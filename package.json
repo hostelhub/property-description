@@ -16,7 +16,7 @@
     "test": "jest",
     "test:coverage": "jest --coverage --colors",
     "react-dev": "webpack -d --watch",
-    "start": "nodemon server/index.js",
+    "start": "node database/seed.js & node server/index.js",
     "db:setup": "node database/seed.js"
   },
   "dependencies": {
