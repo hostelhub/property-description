@@ -9,7 +9,7 @@ for (let i = 1; i <= 100; i += 1) {
   let paragraph = '';
   for (let j = 0; j < 10; j += 1) {
     const picId = (Math.floor(Math.random() * 54) + 1).toString();
-    pics.push(`https://s3-us-west-1.amazonaws.com/hackreactorfrontendcapstone/hrsf114-front-end-capstone-pics/sample${picId}.jpg`);
+    pics.push({ full: `https://s3-us-west-1.amazonaws.com/hackreactorfrontendcapstone/hrsf114-front-end-capstone-pics/sample${picId}.jpg`, small: `https://s3-us-west-1.amazonaws.com/hackreactorfrontendcapstone/hrsf114-front-end-capstone-pics/sample${picId}_small.jpg` });
   }
   for (let k = 0; k < 20; k += 1) {
     paragraph += `${faker.hacker.noun()} `;
