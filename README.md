@@ -8,12 +8,6 @@ A full-stack hostel booking web application. This microservice is the photo caro
   - https://github.com/hostelhub/check-in-availability
   - https://github.com/hostelhub/banner
 
-## Table of Contents
-
-1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
-
 ### Installing Dependencies
 
 From within the root directory:
@@ -22,6 +16,7 @@ From within the root directory:
 npm install -g webpack
 npm install
 ```
+
 ## Usage
 
 > The master branch has been updated to reflect the code for the final optimized and deployed Docker container that is on EC2.
