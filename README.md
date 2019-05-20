@@ -1,6 +1,6 @@
 # HostelHub
 
-> A full-stack hostel booking web application. This microservice is the photo carousel for a hostel.
+A full-stack hostel booking web application. This microservice is the photo carousel for a hostel.
 
 ## Related Projects
 
