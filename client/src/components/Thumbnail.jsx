@@ -5,7 +5,7 @@ const Thumbnail = props => (
   <div style={{
     width: '10%',
   }}>
-    <img src={props.image} style={{
+    <img src={props.image.small} style={{
       width: '100%',
       height: '100%',
       cursor: 'pointer',
