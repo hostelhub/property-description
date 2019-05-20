@@ -27,9 +27,9 @@ npm install
 > The master branch has been updated to reflect the code for the final optimized and deployed Docker container that is on EC2.
 > Check out the other branches to see the various iterations that this project went through over the course of development!
 
-> Seed the Mongo database and start the Express server by running the command 'npm run start' in the root directory
-> Ensure that your Express server is connected to the Mongo database
-> Create a Webpack bundle by running the command 'npm run react-dev' in the root directory
-> Navigate to localhost:3001/hostels/* to view the photos for any hostel from 1-100!
-> Replace the * with a number from 1-100 to view that hostel!
-> You can run tests by running the command 'npm run test' and 'npm run test:coverage' to view test coverage
+ - Seed the Mongo database and start the Express server by running the command 'npm run start' in the root directory
+ - Ensure that your Express server is connected to the Mongo database
+ - Create a Webpack bundle by running the command 'npm run react-dev' in the root directory
+ - Navigate to localhost:3001/hostels/* to view the photos for any hostel from 1-100!
+ - Replace the * with a number from 1-100 to view that hostel!
+ - You can run tests by running the command 'npm run test' and 'npm run test:coverage' to view test coverage
