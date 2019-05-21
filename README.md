@@ -19,7 +19,7 @@ npm install
 
 ## Usage
 
-> The master branch has been updated to reflect the code for the final optimized and deployed Docker container that is on EC2.
+> The master branch has been updated to reflect the code for the final optimized and deployed Docker container that is on AWS EC2.
 > Check out the other branches to see the various iterations that this project went through over the course of development!
 
  - Seed the Mongo database and start the Express server by running the command 'npm run start' in the root directory
