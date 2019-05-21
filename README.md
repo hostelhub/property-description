@@ -25,6 +25,5 @@ npm install
  - Seed the Mongo database and start the Express server by running the command 'npm run start' in the root directory
  - Ensure that your Express server is connected to the Mongo database
  - Create a Webpack bundle by running the command 'npm run react-dev' in the root directory
- - Navigate to localhost:3001/hostels/* to view the photos for any hostel from 1-100!
- - Replace the * in the URL with a number from 1-100 to view that hostel!
- - You can run tests by running the command 'npm run test' and 'npm run test:coverage' to view test coverage
+ - Navigate to localhost:3001/hostels/* , replacing the * with a number from 1-100 to view the photos for that hostel
+ - Run tests by running the command 'npm run test' or 'npm run test:coverage' to view test coverage
